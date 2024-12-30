@@ -2,7 +2,7 @@ Feature: Login Functionality
   @only
   Scenario: Login with Correct Credientials
     Given I got navigated to login page
-    When I will enter the valid email address as "redsea@gmail.com" and valid password as "(freakout)killingdevara" into the fields
+    When I will enter the valid email address as "redsea@gmail.com" and valid password as "killingdevara" into the fields
     And I click on the login button
     Then I should get logged in
   @cheater
